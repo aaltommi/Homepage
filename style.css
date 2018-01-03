@@ -1,0 +1,98 @@
+/*
+Theme Name: Homepage
+Theme URI: http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial
+Description: A demo theme built to accompany the Treehouse blog post <a href="http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial">How to Build a WordPress Theme with Bootstrap</a>.
+Author: Zac Gordon
+Author URI: http://teamtreehouse.com/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+*/
+@import url('bootstrap/css/bootstrap.css');
+body {
+    font-family: Consolas;
+}
+a {
+    color: #777;
+}
+a:hover{
+    color: #777;
+}
+.navbar {
+    padding:30px;
+    background-color: white;
+    border-bottom: solid 2px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-color: #777;
+    border-radius: 0;
+}
+#headerImage {
+    text-align: center;
+}
+.wp-image-93{
+    border-radius: 50%;
+    float: right;
+}
+div.custom-menu-class ul {
+    list-style: none;
+    list-style-image: none;
+    list-style-type: circle;
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+    webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div.custom-menu-class li {
+    padding: 20px;
+    display: inline;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: white;
+    color: #777;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: white;
+    color: #777;
+}
+.fa-linkedin {
+    background: white;
+    color: #777;
+}
+.fa-github {
+    background: white;
+    color: #777;
+}
+footer{
+    text-align: center;
+}
